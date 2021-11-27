@@ -1,0 +1,12 @@
+#Calculo primo
+i=1
+while i<100:
+    multi=0
+    for a in range(2,100):
+        if (i % a == 0):
+            multi = multi + 1
+    if multi > 2:
+        print(str(i) + " não é primo")
+    else:
+        print(str(i) + " é primo")
+    i=i+1
